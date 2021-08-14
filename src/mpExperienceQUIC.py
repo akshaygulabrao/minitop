@@ -92,8 +92,8 @@ class MpExperienceQUIC(MpExperience):
 		cmd = self.getQUICServerCmd()
 		#self.mpTopo.commandTo(self.mpConfig.server, "netstat -sn > netstat_server_before")
 		#self.mpTopo.commandTo(self.mpConfig.server, cmd)
-		self.mpTopo.commandTo(self.mpConfig.server, "./server_main -www . -certpath ~/go/src/github.com/lucas-clemente/quic-go/example/ -bind 10.1.0.1:6121 &>quic_server.log &")
-		self.mpTopo.commandTo(self.mpConfig.server, "./server_main -www . -certpath ~/go/src/github.com/lucas-clemente/quic-go/example/ -bind 10.1.0.1:6122 &>quic_server2.log &")
+		self.mpTopo.commandTo(self.mpConfig.server, "./server_main -www . -certpath ~/go/src/github.com/lucas-clemente/quic-go/example/ -bind 10.1.0.1:6121 &>f1 &")
+		self.mpTopo.commandTo(self.mpConfig.server, "./server_main -www . -certpath ~/go/src/github.com/lucas-clemente/quic-go/example/ -bind 10.1.0.1:6122 &>f2 &")
 
 		#self.mpTopo.commandTo(self.mpConfig.client, "sleep 2")
 
