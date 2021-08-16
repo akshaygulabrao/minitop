@@ -12,3 +12,5 @@
 *.pcap
 *.xpl
 *.patch
+src/main
+src/server_main

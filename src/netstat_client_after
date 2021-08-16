@@ -1,43 +1,47 @@
 Ip:
-    885 total packets received
+    755 total packets received
     0 forwarded
     0 incoming packets discarded
-    885 incoming packets delivered
-    504 requests sent out
+    755 incoming packets delivered
+    459 requests sent out
 Icmp:
-    9 ICMP messages received
+    10 ICMP messages received
     0 input ICMP message failed.
     ICMP input histogram:
-        echo replies: 9
-    17 ICMP messages sent
+        echo replies: 10
+    10 ICMP messages sent
     0 ICMP messages failed
     ICMP output histogram:
-        destination unreachable: 7
         echo request: 10
 IcmpMsg:
-        InType0: 9
-        OutType3: 7
+        InType0: 10
         OutType8: 10
 Tcp:
-    0 active connections openings
+    2 active connections openings
     0 passive connection openings
     0 failed connection attempts
-    0 connection resets received
+    2 connection resets received
     0 connections established
-    0 segments received
-    0 segments send out
+    745 segments received
+    449 segments send out
     0 segments retransmited
     0 bad segments received.
-    0 resets sent
+    1 resets sent
 Udp:
-    862 packets received
-    14 packets to unknown port received.
+    0 packets received
+    0 packets to unknown port received.
     0 packet receive errors
-    487 packets sent
+    0 packets sent
 UdpLite:
 TcpExt:
+    659 packets directly queued to recvmsg prequeue.
+    475070 bytes directly received in process context from prequeue
     0 packet headers predicted
+    2 acknowledgments not containing data payload received
+    1 connections reset due to early user close
+    TCPOFOQueue: 47
+    TCPOrigDataSent: 6
 IpExt:
-    InOctets: 1103311
-    OutOctets: 37538
-    InNoECTPkts: 885
+    InOctets: 1108350
+    OutOctets: 29692
+    InNoECTPkts: 755

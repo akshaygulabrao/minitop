@@ -1,20 +1,20 @@
 Ip:
-    9 total packets received
+    10 total packets received
     0 forwarded
     0 incoming packets discarded
-    9 incoming packets delivered
+    10 incoming packets delivered
     10 requests sent out
 Icmp:
-    9 ICMP messages received
+    10 ICMP messages received
     0 input ICMP message failed.
     ICMP input histogram:
-        echo replies: 9
+        echo replies: 10
     10 ICMP messages sent
     0 ICMP messages failed
     ICMP output histogram:
         echo request: 10
 IcmpMsg:
-        InType0: 9
+        InType0: 10
         OutType8: 10
 Tcp:
     0 active connections openings
@@ -36,6 +36,6 @@ UdpLite:
 TcpExt:
     0 packet headers predicted
 IpExt:
-    InOctets: 756
+    InOctets: 840
     OutOctets: 840
-    InNoECTPkts: 9
+    InNoECTPkts: 10
